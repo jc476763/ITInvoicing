@@ -1,0 +1,35 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 170px;
+    width: 100%;
+    background-color: #433F3F;
+    color: white;
+    border-radius: 20px;
+    /*text-align: center;*/
+}
+.address{
+    /*margin-left: 20px;*/
+}
+.copyright{
+    float: right !important;
+
+   }
+.social_icons li{
+    display: inline-block;
+}
+.footer_container{
+    margin: 0 auto;
+    padding: 10px;
+    /*background-color: red;*/
+}
+.address, .social, .copyright {
+    float: left;
+    width: 33.33333%;
+    position: relative;
+}
+#test{
+    margin-top: 19px;
+    margin-right: 10px;
+}
